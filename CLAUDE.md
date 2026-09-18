@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run build` — type-check and compile to `dist/` via `tsc`
 - `npm start` — run the compiled server from `dist/index.js` (requires `npm run build` first)
 - There is no test suite yet (`npm test` is a placeholder that exits with an error)
-- Server port is read from `PORT` env var (`.env`), defaulting to 5000
+- Server port is read from `PORT` env var (`.env`), defaulting to 5001
 
 ## Architecture
 
