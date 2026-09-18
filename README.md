@@ -15,10 +15,10 @@ A Node.js/Express REST API for booking venues (bowling alleys, darts lounges, an
 npm install
 ```
 
-Create a `.env` file in the project root to configure the port (optional, defaults to `5000`):
+Create a `.env` file in the project root to configure the port (optional, defaults to `5001`; see `.env.example`):
 
 ```
-PORT=5000
+PORT=5001
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ npm run build
 npm start
 ```
 
-Once running, the API is available at `http://localhost:5000` (or your configured `PORT`).
+Once running, the API is available at `http://localhost:5001` (or your configured `PORT`).
 
 ## API Reference
 
